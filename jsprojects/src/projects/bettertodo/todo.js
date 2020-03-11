@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import * as uuid from "uuid";
 //https://github.com/microsoft/TypeScript/issues/3337 fixed the import issue I was getting for the above
 
+
+import  back from '../../utils/backArrow.png'
+import { NavLink } from "react-router-dom";
+
+
 import {
     List
   } from 'semantic-ui-react'
@@ -72,6 +77,7 @@ class TodoList extends Component {
   render() {
     return (
       <div className="mainContainer">
+        <NavLink to="/" exact className="notification_link"><img style={{width: '30px', height:'30px', display: 'flex'}}src={back}/></NavLink>
         <div className="container">
           <form onSubmit={this.handleSubmit}>
             <input type="text" placeholder="Add Item..." ref={this.input} />

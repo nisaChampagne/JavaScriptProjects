@@ -32,7 +32,7 @@ const getWidth = () => {
  * such things.
  */
 const HomepageHeading = ({ mobile }) => (
-  <Container text>
+  <Container >
     <Header
       as='h1'
       content='Just A Bunch of Random Projects'
@@ -190,6 +190,7 @@ const Homepage = () => (
               I like to make random projects
             </Header>
             <List link inverted >
+                <List.Item><NavLink to="/meme" exact className="project_link" style={{color: 'white', textDecoration: 'none'}}>Meme Generator</NavLink></List.Item>
                 <List.Item><NavLink to="/groceryList" exact className="project_link" style={{color: 'white', textDecoration: 'none'}}>Todo List</NavLink></List.Item>
                 <List.Item><NavLink to="/easiercalc" exact className="project_link" style={{color: 'white', textDecoration: 'none'}}>Easier Calc</NavLink></List.Item>
                 <List.Item><NavLink to="/calc" exact className="project_link" style={{color: 'white', textDecoration: 'none'}}>Calculator</NavLink></List.Item>
