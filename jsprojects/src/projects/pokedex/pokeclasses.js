@@ -1,27 +1,27 @@
 export const pokeClasses = [
     {
       id: "1",
-      backgroundPosition: "0 0",
+      backgroundPosition: "-20px 0",
     },
     {
       id: "2",
-      backgroundPosition: "-125px 0",
+      backgroundPosition: "-145px 0",
     },
     {
       id: "3",
-      backgroundPosition: "-250px 0",
+      backgroundPosition: "-260px 0",
     },
     {
       id: "4",
-      backgroundPosition: "-375px 0",
+      backgroundPosition: "-395px 0",
     },
     {
       id: "5",
-      backgroundPosition: "-500px 0",
+      backgroundPosition: "-520px 0",
     },
     {
       id: "6",
-      backgroundPosition: "-625px 0",
+      backgroundPosition: "-640px 0",
     },
     {
       id: "7",
