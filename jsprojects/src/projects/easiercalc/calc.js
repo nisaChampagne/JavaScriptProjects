@@ -45,7 +45,7 @@ const Calc = () => {
     return(
         <>
         <div className='holder'>
-        <NavLink to="/projectlist" exact className="notification_link"><img style={{width: '30px', height:'30px', display: 'flex'}}src={back}/></NavLink>
+        <NavLink to="/" exact className="notification_link"><img style={{width: '30px', height:'30px', display: 'flex'}}src={back}/></NavLink>
           <form>
             <input type="text" name="" id="" className="screenCalc"/>
           </form>

@@ -19,7 +19,7 @@ class ReactCalendar extends Component {
   render() {
     return (
       <div className='calendarHolder'>
-        <NavLink to="/projectlist" exact className="notification_link"><img style={{width: '30px', height:'30px', display: 'flex'}}src={back}/></NavLink>
+        <NavLink to="/" exact className="notification_link"><img style={{width: '30px', height:'30px', display: 'flex'}}src={back}/></NavLink>
         <Calendar className={['c1']} onChange={this.onChange} value={this.state.d} />
       </div>
     );
