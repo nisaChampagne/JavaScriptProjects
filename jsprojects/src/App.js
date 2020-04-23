@@ -15,6 +15,7 @@ import Calendar from './projects/calendar/calendar'
 import GroceryList from './projects/bettertodo/todo'
 import Meme from  './projects/memes/meme'
 import Pokedex from './projects/pokedex/pokedex'
+import Vote from './projects/Voting/vote'
 
 
 import LightMode from './utils/lightmode.png'
@@ -60,6 +61,7 @@ function App() {
           </button>
       <Switch>
         <Route exact path="/" component={HomePage}/>
+        <Route path='/vote' component={Vote}/>
         <Route path='/meme' component={Meme}/>
         <Route path='/pokedex' component={Pokedex}/>
         <Route exact path="/groceryList" component={GroceryList}/>
