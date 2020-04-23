@@ -21,6 +21,7 @@ export default class Pokedex extends Component{
           .then(res => res.json())
           .then(data => {
             const pokemon = new Pokemon(data);
+            console.log(data)
     
             this.setState({ pokemon });
           })

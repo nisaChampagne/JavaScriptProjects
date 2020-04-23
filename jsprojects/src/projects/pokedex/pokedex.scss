@@ -17,7 +17,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 70%;
     height: 80%;
     padding: 10px;
     margin-right: 10px;
@@ -29,18 +29,19 @@
   }
 
   .pokecell {
-    width: 120px;
+    width: 130px;
     height: 120px;
-    margin: 10px;
+    margin: 8px;
     background-color: #FFF;
     background-repeat: no-repeat;
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    border: 2px solid rgb(211, 117, 203);
   }
 
   .details {
-    width: 50%;
+    width: 60%;
     height: 100%;
     padding: 10px;
     background-color: rgb(254, 0, 21);
@@ -65,7 +66,7 @@
   
   .data {
     width: 80%;
-    height: 110px;
+    height: 150px;
     padding: 10px;
     margin: 0 auto;
     background-color: #b9b3b3;
@@ -82,4 +83,5 @@
   
   .datap {
     font-size: 10px;
+    font-weight: bold;
   }
