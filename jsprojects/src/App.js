@@ -16,6 +16,7 @@ import GroceryList from './projects/bettertodo/todo'
 import Meme from  './projects/memes/meme'
 import Pokedex from './projects/pokedex/pokedex'
 import Vote from './projects/Voting/vote'
+import AutoComplete from './projects/AutoComplete/autocomplete'
 
 
 import LightMode from './utils/lightmode.png'
@@ -61,6 +62,7 @@ function App() {
           </button>
       <Switch>
         <Route exact path="/" component={HomePage}/>
+        <Route path='/autocomplete' component={AutoComplete}/>
         <Route path='/vote' component={Vote}/>
         <Route path='/meme' component={Meme}/>
         <Route path='/pokedex' component={Pokedex}/>
