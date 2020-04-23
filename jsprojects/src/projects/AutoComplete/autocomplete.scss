@@ -19,6 +19,8 @@ li {
 
 #query {
     width: 100%;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     font-size: 19px;
     padding: 5px;
@@ -31,9 +33,11 @@ li {
 
 #notebooks {
     background: whitesmoke;
-    position: absolute;
-    left: 50%;
-    margin-left: -175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     margin-top: 35px;
     width: 350px;
     padding: 15px;
@@ -56,11 +60,10 @@ ul {
 
 #notebooks span {
     display: block;
-    position: absolute;
     background: #FFD32E;
-    bottom: -35px;
-    left: -1px;
-    width: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 300px;
     border-radius: 0 0 5px 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
